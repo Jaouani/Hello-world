@@ -1,0 +1,41 @@
+body{
+	margin: 0 auto;
+}
+header nav{
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+header nav li{
+	list-style-type: none;
+	
+}
+
+.image{
+	padding-top: 180px;
+	height: 500px;
+	background-image: url("bg.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+section{
+	max-width: 980px;
+	margin: 0 auto;
+	display: flex;
+	height: 100vh;
+}
+main{
+	width: 65%;
+}
+aside{
+	margin-left: 5%;
+	width: 25%;
+}
+footer{
+	width: 100%;
+}
